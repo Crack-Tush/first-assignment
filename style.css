@@ -1,0 +1,139 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+header ul{
+    margin-bottom: 3%;
+    padding: 10px;
+    padding-left: 50%;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    display:flex;
+    justify-content:space-between;
+    border-radius: 40px;
+}
+header ul li{
+    list-style: none;   
+}
+header ul li a{
+    font-weight: 700;
+    align-items: center;
+    display: inline-block;
+    color: rgb(243, 245, 243);
+    text-decoration: none;    
+}
+header ul li:hover a{
+    transform: translateX(10px);
+    color: rgb(0, 0, 0);
+    transition: 0.4s;
+}
+h1{
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+}
+span{
+    color: #5f0a87;
+}
+
+.intro-full{
+    display: flex;
+    justify-content: space-around;
+}
+
+.half-width{
+    width: 40%;
+    margin: 10% 10% ;
+}
+.img img{
+    width: 70%;
+    margin: 5% 10%;
+    border-radius: 45%;
+ }
+.button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    background-image: linear-gradient(90deg, lightsalmon,tomato) ;
+    padding: 10px 20px;
+    font-weight: 700;
+    border-radius: 15px;
+    color: rgb(253, 250, 255);
+}
+.next-intro{
+    display: flex;
+    justify-content: space-around;
+}
+.next-intro .img img{
+    margin: 5% 0 0 10%;
+    width: 80%;
+    border-radius: 30%;
+}
+.next-intro .half-width{
+    width: 40%;
+    margin: 10% 15% 0 0;
+}
+.contianer h1{
+    text-align: center;
+    margin: 10% 0;
+}
+.box{
+    display: flex;
+}
+.list-box{
+    border-left: 5px solid purple;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px grey;
+    width: 30%;
+    margin: 0 5%;
+}
+.list-box h2{
+    font-family: sans-serif;
+    padding: 10px;
+}
+.list-box p{
+    font-family: sans-serif;
+    padding: 10px;
+}
+.list-box img{
+    width: 90%;
+    padding: 35px;
+}
+.banner{
+    background-image: url(./img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 5% 0;
+    justify-content: space-around;
+    margin: 15% 20%;
+    border-radius: 20px;
+}
+.banner h1{
+    color: white;
+    font-family: roboto;
+    font-size: 40px;
+}
+.banner .button a{
+    text-decoration: none;
+    color: white;
+    font-weight: 20px;
+}
+footer h1{
+    text-transform: uppercase;
+    text-align: center;
+}
+footer h3{
+    text-transform: uppercase;
+    text-align: center;
+}
+.footer-img{
+    display:flex;
+    justify-content: center;
+    border-radius: 50%;
+}
+.footer-img img{
+    width: 5%;
+    padding: 10px 30px;
+}
