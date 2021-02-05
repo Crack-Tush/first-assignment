@@ -137,3 +137,6 @@ footer h3{
     width: 5%;
     padding: 10px 30px;
 }
+footer p{
+    text-align: center;
+}
